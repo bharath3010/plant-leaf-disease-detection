@@ -1,0 +1,6 @@
+```markdown
+#### **requirements.txt:**
+```txt
+tensorflow
+numpy
+opencv-python
