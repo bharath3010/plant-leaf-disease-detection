@@ -18,6 +18,12 @@ This project uses AI algorithms to detect diseases in plant leaves. The model is
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+3. Dataset From Kaggle
+  ```bash
+   pip install kaggle
+   kaggle datasets download -d emmarex/plantdisease
+   unzip plantdisease.zip
+  
 
 ## Usage
 1. Train the Model: To train the model on the dataset of leaf images, run:
