@@ -19,7 +19,7 @@ def build_model():
     return model
 
 def main():
-    data_dir = 'Data/PlantVillage'  # Path to your dataset folder'  # Path to your dataset folder
+    data_dir = 'Data/PlantVillage'    # Path to your dataset folder
     train_datagen = ImageDataGenerator(rescale=1./255, validation_split=0.2)
 
     train_generator = train_datagen.flow_from_directory(
